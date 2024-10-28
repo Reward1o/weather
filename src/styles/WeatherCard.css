@@ -1,0 +1,32 @@
+.input_search {
+    border-radius: 8px;
+    width: 30%;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 5px 10px;
+    transition: 0.2s ease-in-out;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+    outline: none !important;
+}
+
+.input_search:focus {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button_search {
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-left: 15px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.2s ease-in;
+    color: white;
+    border: none;
+}
+
+.button_search:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}

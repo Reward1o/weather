@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container div:not(:first-child) {
+    margin-left: 100px;
+}
